@@ -1450,7 +1450,7 @@ section {
   }
 }
 /* monitor */
-@media only screen and (min-width: 768px) and (max-width: 1368px), only screen and (min-device-width: 768px) and (max-device-width: 1368px) {
+@media only screen and (max-width: 1368px) and (min-width: 768px), only screen and (max-device-width: 1368px) and (min-device-width: 768px) {
   .tabloide{
     max-width: 0rem;
     padding: 0rem 31rem 0rem 0rem;
@@ -1467,9 +1467,9 @@ section {
     margin: 0rem 0rem 0rem 13rem;
   }
   .tarjeta{
-    max-width: 49rem;
+    max-width: 20rem;
     padding: 0rem 0rem 0rem 0rem;
-    margin: 0rem 0rem 0rem 14rem;
+    margin: 0rem 0rem 0rem 0rem;
   }
   .segu {
     padding: 0rem 0rem 0rem 2.6rem;
@@ -1813,9 +1813,9 @@ section {
     margin: 0rem 0rem 0rem 13rem;
   }
   .tarjeta{
-    max-width: 49rem;
+    max-width: 19rem;
     padding: 0rem 0rem 0rem 0rem;
-    margin: 0rem 0rem 0rem 14rem;
+    margin: 0rem 0rem 0rem 0rem;
   }
   .segu {
     padding: 0rem 0rem 0rem 2.6rem;
