@@ -1202,6 +1202,9 @@ section {
 }
 /* pequeña */
 @media only screen and (max-width: 370px), only screen and (max-device-width: 370px) {
+  .contador{
+    padding: 0.2rem 0rem 0em 1rem;
+  }
   .xxpts{
     max-height: 4rem;
     padding: 0rem 0rem 0rem 2rem;
@@ -1229,7 +1232,7 @@ section {
     padding: 0rem 1rem 0rem 1rem;
   }
   .row .regla .mb-3{
-    padding: 0rem 6rem 0rem 6rem;
+    padding: 0rem 1rem 0rem 0rem;
   }
   #hero {
     padding-top: 2rem !important;
@@ -1267,6 +1270,9 @@ section {
 }
 /* mediana */
 @media only screen and (min-width: 371px) and (max-width: 767px), only screen and (min-device-width: 371px) and (max-device-width: 767px) {
+  .contador{
+    padding: 0.2rem 0rem 0em 1rem;
+  }
   .xxpts{
     max-height: 4rem;
     padding: 0rem 0rem 0rem 3rem;
@@ -1294,7 +1300,7 @@ section {
     padding: 0rem 1rem 0rem 1rem;
   }
   .row .regla .mb-3{
-    padding: 0rem 6rem 0rem 6rem;
+    padding: 0rem 1rem 0rem 0rem;
   }
   #hero {
     padding-top: 2rem !important;
@@ -1333,6 +1339,9 @@ section {
 }
 /* monitor */
 @media only screen and (min-width: 768px) and (max-width: 1368px), only screen and (min-device-width: 768px) and (max-device-width: 1368px) {
+  .contador{
+    padding: 0.2rem 0rem 0em 1rem;
+  }
   .xxpts{
     max-height: 4rem;
     padding: 0rem 0rem 0rem 3rem;
@@ -1354,7 +1363,7 @@ section {
     padding: 0rem 1rem 0rem 1rem;
   }
   .row .regla .mb-3{
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 0rem 1rem 0rem 0rem;
   }
   #hero {
     padding: 5.3rem 0rem 1rem 0rem;;
@@ -1403,6 +1412,9 @@ section {
 }
 /* laptop */
 @media only screen and (min-width: 1369px) and (max-width: 1399px), only screen and (min-device-width: 1369px) and (max-device-width: 1399px){
+  .contador{
+    padding: 0.2rem 0rem 0em 1rem;
+  }
   .xxpts{
     max-height: 4rem;
     padding: 0rem 0rem 0rem 3rem;
@@ -1424,7 +1436,7 @@ section {
     padding: 0rem 1rem 0rem 1rem;
   }
   .row .regla .mb-3{
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 0rem 1rem 0rem 0rem;
   }
   #hero {
     padding: 5.3rem 0rem 1rem 0rem;
@@ -1474,6 +1486,9 @@ section {
 }
 /* grande */
 @media only screen and (min-width: 1400px), only screen and (min-device-width: 1400px) {
+  .contador{
+    padding: 0.2rem 0rem 0em 1rem;
+  }
   .xxpts{
     max-height: 4rem;
     padding: 0rem 0rem 0rem 3rem;
@@ -1495,7 +1510,7 @@ section {
     padding: 0rem 1rem 0rem 1rem;
   }
   .row .regla .mb-3{
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 0rem 1rem 0rem 0rem;
   }
   #hero {
     padding: 8.3rem 0rem 6rem 0rem;

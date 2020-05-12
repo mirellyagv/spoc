@@ -1192,6 +1192,17 @@ section {
 }
 /* pequeña */
 @media only screen and (max-width: 370px), only screen and (max-device-width: 370px) {
+  .elimina{
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  .radio{
+    padding: 0rem 0rem 0rem 1rem;
+  }
+  .contador{
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0rem -2rem 0rem 0rem;
+  }
   .txelem{
     padding: 0rem 0.2rem 0rem 0rem;
   }
@@ -1205,18 +1216,18 @@ section {
 }
   .texto{
     padding: 0rem 0rem 0rem 0rem;
-    margin: 0.5rem 1rem 0.5rem -3rem;
-    max-width: 10rem;
+    margin: 0.5rem 1rem 0.5rem 0rem;
+    max-width: 9rem;
     max-height: 2.2rem;
     font-size: 0.8rem;
 }
-  .filit {
-    padding: 0rem 0rem 0rem 2.5rem;
-    margin: 1rem 0rem -2rem 0rem;
+  .filit{
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
 }
   .filefot {
-    padding: 0rem 0rem 0rem 1rem;
-    margin: 0rem -1rem 1.3rem -2rem;
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 1.8rem 2rem;
     font-size: small;
 }
   .suiche{
@@ -1224,11 +1235,10 @@ section {
   }
   .suiche2 {
     padding: 0rem 1.5rem 0rem 0.3rem;
-    margin: 0rem -0.5rem 0rem -1rem;
-    max-width: 9rem;
+    margin: 0rem 0rem 0rem 1rem;
+    max-width: 10rem;
     max-height: 2rem;
     font-size: 0.9rem;
-
 }
 .textselec{
     text-align-last: center;
@@ -1269,7 +1279,7 @@ section {
     padding: 0rem 1rem 0rem 1rem;
   }
   .row .regla .mb-3{
-    padding: 0rem 6rem 0rem 6rem;
+    padding: 0rem 1rem 0rem 0rem;
   }
   #hero {
     padding-top: 2rem !important;
@@ -1286,6 +1296,8 @@ section {
     margin-bottom: 1rem;
     font-size: 1.1rem;
     padding: 0.5rem 0rem 0rem 0rem;
+    margin-top: 1rem;
+
   }
   #hero h5 {
     font-size: 1rem;
@@ -1308,6 +1320,17 @@ section {
 }
 /* mediana */
 @media only screen and (min-width: 371px) and (max-width: 767px), only screen and (min-device-width: 371px) and (max-device-width: 767px) {
+  .elimina{
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  .radio{
+    padding: 0rem 0rem 0rem 1rem;
+  }
+  .contador{
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0rem -2rem 0rem 0rem;
+  }
   .txelem{
     padding: 0rem 0.2rem 0rem 0rem;
   }
@@ -1321,18 +1344,18 @@ section {
 }
   .texto{
     padding: 0rem 0rem 0rem 0rem;
-    margin: 0.5rem 0rem 0.5rem -1rem;
+    margin: 0.5rem 0rem 0.5rem 1rem;
     max-width: 10rem;
     max-height: 2.2rem;
     font-size: 0.8rem;
 }
   .filit{
     padding: 0rem 0rem 0rem 0rem;
-    margin: 0rem 0rem -1rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
   }
   .filefot {
-    padding: 0rem 0rem 0rem 1rem;
-    margin: 0rem -1rem 1.3rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 1.8rem 2rem;
     font-size: small;
 }
   .suiche{
@@ -1422,7 +1445,19 @@ section {
   }
 }
 /* monitor */
-@media only screen and (min-width: 768px) and (max-width: 1368px), only screen and (min-device-width: 768px) and (max-device-width: 1368px) {
+@media only screen and (min-width: 768px) and (max-width: 1399px), only screen and (min-device-width: 768px) and (max-device-width: 1399px) {
+  .elimina{
+    text-align-last: right;
+    padding: 0.5rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  .radio{
+    padding: 0rem 0rem 0rem 1rem;
+  }
+  .contador{
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0rem -2rem 0rem 0rem;
+  }
   .txelem{
     padding: 0rem 1.2rem 0rem 0rem !important;
   }
@@ -1436,18 +1471,18 @@ section {
 }
   .texto{
     padding: 0rem 0rem 0rem 0rem;
-    margin: -0.1rem 0rem -0.4rem -2rem;
+    margin: 0.5rem 0rem 0.5rem 1rem;
     max-width: 10rem;
-    max-height: 2rem;
+    max-height: 2.2rem;
     font-size: 0.8rem;
 }
-  .filit {
-    padding: 1rem 0rem 0rem 2.5rem;
-    margin: 1rem -1rem -1rem 0rem;
+.filit{
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
 }
-  .filefot {
-    padding: 0rem 0rem 0rem 1rem;
-    margin: 0rem -1rem 1.3rem 0rem;
+.filefot {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0.6rem 0rem 1.8rem 2.5rem;
     font-size: small;
 }
   .suiche{
@@ -1455,11 +1490,10 @@ section {
   }
   .suiche2 {
     padding: 0rem 1.5rem 0rem 0.3rem;
-    margin: 0rem -0.5rem 0rem -1rem;
-    max-width: 9rem;
+    margin: 0.6rem -2.5rem 0rem 0rem;
+    max-width: 10rem;
     max-height: 2rem;
     font-size: 0.9rem;
-
 }
 .textselec{
     text-align-last: center;
@@ -1568,7 +1602,7 @@ section {
   }
 }
 /* laptop */
-@media only screen and (min-width: 1369px) and (max-width: 1399px), only screen and (min-device-width: 1369px) and (max-device-width: 1399px){
+/* @media only screen and (min-width: 1369px) and (max-width: 1399px), only screen and (min-device-width: 1369px) and (max-device-width: 1399px){
   .txelem{
     padding: 0rem 1.2rem 0rem 0rem !important;
   }
@@ -1712,9 +1746,21 @@ section {
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
   }
-}
+} */
 /* grande */
 @media only screen and (min-width: 1400px), only screen and (min-device-width: 1400px) {
+  .elimina{
+    text-align-last: right;
+    padding: 0.5rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  .radio{
+    padding: 0rem 0rem 0rem 1rem;
+  }
+  .contador{
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0rem -2rem 0rem 0rem;
+  }
   .txelem{
     padding: 0rem 1.2rem 0rem 0rem !important;
   }
@@ -1728,18 +1774,18 @@ section {
 }
   .texto{
     padding: 0rem 0rem 0rem 0rem;
-    margin: -0.1rem 0rem -0.4rem -2rem;
+    margin: 0.5rem 0rem 0.5rem 1rem;
     max-width: 10rem;
-    max-height: 2rem;
+    max-height: 2.2rem;
     font-size: 0.8rem;
 }
-  .filit {
-    padding: 1rem 5rem 0rem 2.5rem;
-    margin: 1rem 0rem -1rem 0rem;
+.filit{
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
 }
-  .filefot {
-    padding: 0rem 0rem 0rem 1rem;
-    margin: 0rem -1rem 1.3rem 0rem;
+.filefot {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0.6rem 0rem 1.8rem 2.5rem;
     font-size: small;
 }
   .suiche{
@@ -1747,11 +1793,10 @@ section {
   }
   .suiche2 {
     padding: 0rem 1.5rem 0rem 0.3rem;
-    margin: 0rem -0.5rem 0rem -1rem;
-    max-width: 9rem;
+    margin: 0.6rem -2.5rem 0rem 0rem;
+    max-width: 10rem;
     max-height: 2rem;
     font-size: 0.9rem;
-
 }
 .textselec{
     text-align-last: center;
