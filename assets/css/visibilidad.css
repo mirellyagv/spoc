@@ -1749,6 +1749,9 @@ section {
 } */
 /* grande */
 @media only screen and (min-width: 1400px), only screen and (min-device-width: 1400px) {
+  .upcarga{
+    font: -webkit-small-control;
+  }
   .elimina{
     text-align-last: right;
     padding: 0.5rem 0rem 0rem 0rem;
