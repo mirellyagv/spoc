@@ -1,1 +1,3 @@
-$("#carga1").value(true);
+$("#carga1").on('change',function(){
+	alert(this.value);
+});
