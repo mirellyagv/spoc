@@ -3,6 +3,7 @@ $("#carga1").on('change',function(){
 	if(this.value != ''){
 		$('#label_'+id).removeClass('btn-primary');
 		$('#label_'+id).addClass('btn-secondary');
+		$("#texto_"+id).html(' Reemplazar');
 	}
 	// alert(this.value);
 });
