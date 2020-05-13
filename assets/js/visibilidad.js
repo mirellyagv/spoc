@@ -1,4 +1,4 @@
-$("#carga1").on('change',function(){
+$(".btnCarga").on('change',function(){
 	var id = this.id;
 	if(this.value != ''){
 		$('#label_'+id).removeClass('btn-primary');
