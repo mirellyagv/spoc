@@ -3,9 +3,28 @@ $(".btnCarga").on('change',function(){
 	if(this.value != ''){
 		$('#label_'+id).removeClass('btn-primary');
 		$('#label_'+id).addClass('btn-secondary');
-		$('#label_'+id).html(' Reemplazar');
+		$('#texto_'+id).html(' Reemplazar');
 	}
 	// alert(this.value);
+});
+
+$(".radio_vis").on('click',function(){
+	var id = this.id;
+	var valor = this.value;
+	aux = id.split('_')[2]
+	if(valor == 'option1'){
+		$('#label_prop_vis_'+aux).removeClass('btn-secondary');
+		$('#label_prop_vis_'+aux).removeClass('btn-light');
+		$('#label_prop_vis_'+aux).addClass('btn-primary');
+		$("#prop_vis_"+aux).prop('disabled',false);
+	}else{
+		$('#label_prop_vis_'+aux).removeClass('btn-primary');
+		$('#label_prop_vis_'+aux).addClass('btn-light');
+		$("#prop_vis_"+aux).prop('disabled',true);
+		$('#texto_prop_vis_'+aux).html(' Cargar');
+		$("#prop_vis_"+aux).val();
+	}
+	console.log(valor);
 });
 
 function borrarFila(compo){
@@ -30,7 +49,6 @@ function borrarFila(compo){
 
 $(".btn-anadir").on('click',function(){
 	var cant = $(".bloqueform2 .filit").length;
-	console.log(cant);
 	var fila = '<div class="filit">'+
                   '<div class="row">'+
                         '<div class="col-6 col-lg-4">'+
