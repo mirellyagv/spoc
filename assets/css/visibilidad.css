@@ -1320,6 +1320,10 @@ section {
 }
 /* mediana */
 @media only screen and (min-width: 371px) and (max-width: 767px), only screen and (min-device-width: 371px) and (max-device-width: 767px) {
+  .upcarga{
+    max-height: 1.5rem;
+    padding: 0rem 1rem 1rem 0rem;
+  }
   .elimina{
     padding: 0rem 0rem 0rem 0rem;
     margin: 0rem 0rem 0rem 0rem;
@@ -1336,7 +1340,7 @@ section {
   }
   .btn-anadir{
     padding: 0.2rem 0.2rem 0.2rem 0.2rem;
-    margin: -1rem 15rem 0rem 0rem;
+    margin: 0rem 15rem 4rem 0rem;
     color: #fff;
     background-color: #28a745;
     border-color: #28a745;
@@ -1355,7 +1359,7 @@ section {
   }
   .filefot {
     padding: 0rem 0rem 0rem 0rem;
-    margin: 0rem 0rem 1.8rem 2rem;
+    margin: 0rem 0rem 1.8rem 4rem;
     font-size: small;
 }
   .suiche{
@@ -1401,7 +1405,11 @@ section {
     overflow-x: hidden;
   } */
   .botonform{
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    position: relative;
+    margin: 0rem 0rem 0rem 0rem;
+    bottom: 0rem;
+    left: 3.5rem;
   }
   .row .regla{
     padding: 0rem 1rem 0rem 1rem;
@@ -1536,9 +1544,10 @@ section {
 }
   .botonform{
     padding: 0rem 0rem 0rem 0rem;
-    margin: -1rem 0rem 0rem -7.2rem;
+    margin: 0rem 0rem 0rem 0rem;
     position: fixed;
-    bottom: -6rem;
+    bottom: 6rem;
+    left: 40%;
   }
   .row .regla{
     padding: 0rem 1rem 0rem 1rem;
