@@ -1,4 +1,4 @@
-// $(".numero").number(true,2);
+$(".numero").number(true,2);
 // function numerar ($this) {
 // 	if(this.value.length > this.maxLength) 
 // 	{

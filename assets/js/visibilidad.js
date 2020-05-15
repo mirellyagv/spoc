@@ -1,10 +1,11 @@
 $(".btnCarga").on('change',function(){
-	var id = this.id;
+  var id = this.id;
+  console.log(this.value);
 	if(this.value != ''){
 		$('#label_'+id).removeClass('btn-primary');
     $('#label_'+id).addClass('btn-secondary');
-    $('#texto_'+id).removeClass('bx-upload');
-		$('#texto_'+id).addClass('bx-refresh');
+    // $('#texto_'+id).removeClass('bx-upload');
+		// $('#texto_'+id).addClass('bx-refresh');
 		$('#texto_'+id).html(' ');
 	}
 	// alert(this.id);
@@ -18,19 +19,19 @@ $(".radio_vis").on('click',function(){
 		$('#label_prop_vis_'+aux).removeClass('btn-secondary');
 		$('#label_prop_vis_'+aux).removeClass('btn-light');
     $('#label_prop_vis_'+aux).addClass('btn-primary');
-    $('#texto_prop_vis_'+aux).removeClass('bx-refresh');
-		$('#texto_prop_vis_'+aux).addClass('bx-upload');
+    // $('#texto_prop_vis_'+aux).removeClass('bx-refresh');
+		// $('#texto_prop_vis_'+aux).addClass('bx-upload');
 		$("#prop_vis_"+aux).prop('disabled',false);
 	}else{
 		$('#label_prop_vis_'+aux).removeClass('btn-primary');
 		$('#label_prop_vis_'+aux).addClass('btn-light');
 		$("#prop_vis_"+aux).prop('disabled',true);
     $('#texto_prop_vis_'+aux).html(' Cargar');
-    $('#texto_prop_vis_'+aux).removeClass('bx-upload');
-		$('#texto_prop_vis_'+aux).addClass('bx-refresh');
+    // $('#texto_prop_vis_'+aux).removeClass('bx-upload');
+		// $('#texto_prop_vis_'+aux).addClass('bx-refresh');
 		$("#prop_vis_"+aux).val();
 	}
-	console.log(valor);
+	console.log(aux);
 });
 
 function borrarFila(compo){
