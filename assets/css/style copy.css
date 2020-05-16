@@ -14,31 +14,24 @@
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-/* #footer {
-  background: #fff;
-  padding: 0 0 30px 0;
-  color: #47536e;
-  font-size: 14px;
-  background: #fff;
-} */
 
 
 
 
 
 /* movil pequeño */
-@media only screen and (max-width: 370px), only screen and (max-device-width: 370px) {
+/* @media only screen and (max-width: 370px), only screen and (max-device-width: 370px) {
   
-}
+} */
 /* movil mediano sm */
-@media only screen and (min-width: 371px) and (max-width: 767px), only screen and (min-device-width: 371px) and (max-device-width: 767px) {
+/* @media only screen and (min-width: 371px) and (max-width: 767px), only screen and (min-device-width: 371px) and (max-device-width: 767px) {
 
-}
+} */
 /* standar md */
-@media only screen and (min-width: 768px) and (max-width: 1899px), only screen and (min-device-width: 768px) and (max-device-width: 1899px) {
+/* @media only screen and (min-width: 768px) and (max-width: 1899px), only screen and (min-device-width: 768px) and (max-device-width: 1899px) {
 
-}
+} */
 /* grande lg */
-@media only screen and (min-width: 1900px), only screen and (min-device-width: 1900px) {
+/* @media only screen and (min-width: 1900px), only screen and (min-device-width: 1900px) {
 
-}
+} */
