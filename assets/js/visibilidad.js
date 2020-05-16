@@ -1,6 +1,6 @@
 $(".btnCarga").on('change',function(){
-  var id = this.id;
-  console.log(this.value);
+	var id = this.id;
+	console.log(this.value);
 	if(this.value != ''){
 		$('#label_'+id).removeClass('btn-primary');
     $('#label_'+id).addClass('btn-secondary');
@@ -31,7 +31,7 @@ $(".radio_vis").on('click',function(){
 		// $('#texto_prop_vis_'+aux).addClass('bx-refresh');
 		$("#prop_vis_"+aux).val();
 	}
-	console.log(aux);
+	// console.log(aux);
 });
 
 function borrarFila(compo){
@@ -72,10 +72,11 @@ $(".btn-anadir").on('click',function(){
                           '</select>'+
                         '</div>'+
                         '<div class="input-group btn-group filefot col-8 col-md-6 col-lg-3">'+
-                          '<label for="carga_'+(cant+1)+'" class="btn btn-sm upcarga btn-primary" id="label_carga_'+(cant+1)+'"><i class="bx bx-upload" id="texto_carga_'+(cant+1)+'"> Cargar</i><input id="carga_'+(cant+1)+'" class="form-control-file btnCarga" type="file" accept=".jpeg, .jpg, .png" name="" hidden></label>'+
-                          '<label class="btn btn-sm upcarga btn-danger bx bxs-x-circle" for="borrarFila_'+(cant+1)+'"> Borrar<button id="borrarFila_'+(cant+1)+'" onclick="borrarFila(this);" type="button" hidden></button></label>'+
+                          '<label for="carga_'+(cant+1)+'" class="btn btn-sm upcarga btn-primary" id="label_carga_'+(cant+1)+'"><i class="bx bx-upload" id="texto_carga_'+(cant+1)+'"> Cargar</i><input id="carga_'+(cant+1)+'" class="form-control-file btnCarga" type="file" accept=".jpeg, .jpg, .png" name="carga_'+(cant+1)+'" hidden></label>'+
+                          '<label class="btn btn-sm upcarga btn-danger bx bxs-x-circle " for="borrarFila_'+(cant+1)+'"> Borrar<button id="borrarFila_'+(cant+1)+'"  type="button" onclick="borrarFila(this);" hidden></button></label>'+
                         '</div>'+                                 
-                  '</div>';
+                  '</div>'+
+                '</div>';
     document.getElementById("bloqueform2").insertAdjacentHTML("beforeEnd" ,fila);
 	if ((cant+1) >= 5) {
         $(".btn-anadir").prop('hidden',true);
